@@ -1,6 +1,7 @@
 # Additional Dataset process options
 testset:
-  source_folder: '/homes/fsc01/proj/wavetest' # Path to a directory containing folders with instrument names
+  #source_folder: '/homes/fsc01/proj/wavetest'
+  source_folder: 'C:\Users\ec211239\Downloads\data_v1.zip\data_v1'# Path to a directory containing folders with instrument names
   instruments: ['violin','flute','trumpet']   # Specify names of the folders in test set
   contiguous: True                            # Do not 'chop' into instances, generate a single contiguous instance extracted from audio.
   clip_noise: True                            # Clip loudness back to -80db when f0 is over 1900 (avoids crepe to track noise)
@@ -10,7 +11,8 @@ testset:
 
 # URMP Dataset process options
 urmp:
-  source_folder: '/homes/fsc01/proj/URMP/Dataset' # path to urmp dataset finishing in ... "/URMP/Dataset"
+  #source_folder: '/homes/fsc01/proj/URMP/Dataset' # path to urmp dataset finishing in ... "/URMP/Dataset"
+  source_folder: 'C:\Users\ec211239\Downloads\data_v1.zip\data_v1'
   instruments:  #URMP IDs of instruments
     'vn': 'violin'
     'tpt': 'trumpet'
